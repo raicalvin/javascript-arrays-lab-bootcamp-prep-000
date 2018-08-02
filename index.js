@@ -1,13 +1,18 @@
 // Add your functions and code here
 
+<<<<<<< HEAD
 var kittens = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendKitten(name) {
   // Adds kitten to end of array
+=======
+function destructivelyAppendKitten(name) {
+>>>>>>> 9b28d14d51c00d8aa1b47cc84d87ade74ede0dd6
   kittens.push(name);
   return kittens;
 }
 
+<<<<<<< HEAD
 function destructivelyPrependKitten(name) {
   // adds kitten to start of array
   kittens.unshift(name);
@@ -57,3 +62,5 @@ function removeFirstKitten() {
 
 
 
+=======
+>>>>>>> 9b28d14d51c00d8aa1b47cc84d87ade74ede0dd6
